@@ -14,8 +14,6 @@ duplicable: true
 
 **Tech Stack Advisor** is a hands-on machine learning project designed to teach you how to build, containerize, and deploy an ML-powered web application using Docker and Hugging Face Spaces.
 
-> 🎯 This project is part of the **"Artificial Intelligence and Machine Learning (AI/ML) with Docker"** course from **School of DevOps**.
-
 ---
 
 ## 🚀 What You'll Learn
@@ -48,7 +46,7 @@ tech-stack-advisor/
 
 ## 🧠 Step 1: Setup and Train Your ML Model
 
-1. **Clone the repository**
+1. **Fork an clone the repository**
 
 ```bash
 git clone https://github.com/<your-username>/tech-stack-advisor.git
@@ -58,6 +56,8 @@ cd tech-stack-advisor
 2. **Install dependencies**
 
 (Optional: Use a virtual environment)
+uv venv
+source .venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
