@@ -62,7 +62,7 @@ source .venv/bin/activate
 ```
 
 ```bash
-uv install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 3. **Train the model**
