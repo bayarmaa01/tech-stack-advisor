@@ -56,8 +56,10 @@ cd tech-stack-advisor
 2. **Install dependencies**
 
 (Optional: Use a virtual environment)
+```bash
 uv venv
 source .venv/bin/activate
+```
 
 ```bash
 uv install -r requirements.txt
